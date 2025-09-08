@@ -25,7 +25,7 @@ export default function HomePage() {
         Welcome to Nebula Foundation
       </h1>
       <p>A New way to hackintosh your devices.</p>
-      <h1 href="/docs">Click here to Start</href>
+      <h1 href="/docs">Click here to Start</h1>
     </main>
   );
 }
