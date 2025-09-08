@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'My App',
+  title: 'Nebula Foundation',
 };
 
 export default function HomePage() {
@@ -22,21 +22,10 @@ export default function HomePage() {
           marginBottom: '1rem',
         }}
       >
-        Hello World
+        Welcome to Nebula Foundation
       </h1>
-      <p>
-        You can open{' '}
-        <Link
-          href="/docs"
-          style={{
-            fontWeight: '600',
-            textDecoration: 'underline',
-          }}
-        >
-          /docs
-        </Link>{' '}
-        and see the documentation.
-      </p>
+      <p>A New way to hackintosh your devices.</p>
+      <h1 href="/docs">Click here to Start</href>
     </main>
   );
 }
